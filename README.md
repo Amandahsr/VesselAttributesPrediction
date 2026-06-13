@@ -1,2 +1,2 @@
 # VesselAttributesPrediction
-A multi-modal model that predicts useful vessel attributes on georeferenced optical satellite imagery.
+A multi-model inference pipeline that predicts useful vessel attributes using georeferenced optical satellite imagery. The model leverages on YOLOv8 and CLIP models for vessel detection, vessel type classification and cargo-bearing status prediction. Additionally, the pipeline provides additional useful information such as the geographical boundary the vessel is within, and the length/width of the vessel.
