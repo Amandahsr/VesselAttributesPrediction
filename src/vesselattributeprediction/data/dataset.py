@@ -28,13 +28,12 @@ from vesselattributeprediction.constants import (
 from vesselattributeprediction.data.dataclasses import ImageAnnotationDatasets, XViewObjectAnnotation
 from vesselattributeprediction.utils import (
     collect_img_files,
-    convert_bbox_dim,
     get_abs_path,
-    load_and_scale_image,
     load_geojson_file,
     load_tiff_image,
     map_type_id_to_class_id_and_vessel,
 )
+from vesselattributeprediction.data.data_utils import convert_bbox_dim,load_and_scale_image
 
 
 class xViewDataset:
